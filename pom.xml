@@ -15,6 +15,12 @@
             <organizationUrl>http://www.inf.unideb.hu/</organizationUrl>
         </developer>
     </developers>
+    <distributionManagement>
+        <site>
+            <id>shrek</id>
+            <url>scp://asztalosattila007@shrek.unideb.hu:2222/home/asztalosattila007/public_html/${project.artifactId}</url>
+        </site>
+    </distributionManagement>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
